@@ -17,6 +17,8 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'no-shadow': 'off',
+    'max-classes-per-file': 'off',
+    'no-underscore-dangle': 'off',
     'no-restricted-syntax': ['error', 'LabeledStatement', 'WithStatement'],
   },
   overrides: [
