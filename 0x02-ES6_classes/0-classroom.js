@@ -4,8 +4,7 @@
 export default class Classroom {
 /**
  * Create a new @see {@link Classroom}
- * @param {number} maxStudentsSize
- * @return {instance} Classroom
+ * @param {number} maxStudentsSize - The maximum number of students that can be in the classroom
  */
   constructor(maxStudentsSize) {
     this._maxStudentsSize = maxStudentsSize;
