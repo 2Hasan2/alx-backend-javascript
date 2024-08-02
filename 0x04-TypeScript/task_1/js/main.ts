@@ -38,6 +38,6 @@ class StudentClass implements InStudentClass {
     return this.firstName;
   }
 }
-export function createStudent(Ctor: InStudentClassConstructor, firstName: string, lastName: string): IStudentClass {
+export function createStudent(Ctor: InStudentClassConstructor, firstName: string, lastName: string): InStudentClass {
   return new Ctor(firstName, lastName);
 }
